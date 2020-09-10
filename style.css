@@ -7,4 +7,64 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background: #dae7ea;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 3rem;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+li input, li label {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background: #5f3779;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: #3f1a57;
+}
+
+button:focus {
+    background-color: #513166e5;
+    outline: none;
 }
